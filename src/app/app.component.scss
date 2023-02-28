@@ -25,17 +25,21 @@ p {
   flex: 1;
 }
 
+.example-spacer {
+  flex: 1 1 auto;
+}
+
 .toolbar {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 60px;
-  display: flex;
-  align-items: center;
-  background-color: #1976d2;
-  color: white;
-  font-weight: 600;
+  .mat-toolbar {
+    background: #98b9d9;
+    color: rgba(0,0,0,.87);
+    height: 80px;
+  }
 }
 
 .toolbar img {
