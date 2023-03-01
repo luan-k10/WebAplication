@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import {MatButtonModule} from '@angular/material/button';
+import {NgImageSliderModule} from 'ng-image-slider'  ; 
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {MatButtonModule} from '@angular/material/button';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    NgImageSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
