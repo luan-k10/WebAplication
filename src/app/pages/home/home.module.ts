@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { HomeRoutingModule } from './home-routing.module';
-import { CarouselModule } from '@coreui/angular';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 @NgModule({
@@ -10,7 +10,7 @@ import { CarouselModule } from '@coreui/angular';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    CarouselModule
+    SharedModule
   ]
 })
 export class HomeModule { }

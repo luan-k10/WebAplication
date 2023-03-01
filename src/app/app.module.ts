@@ -10,12 +10,16 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { CarouselModule } from '@coreui/angular';
+import { FooterAppComponent } from './shared/components/footer-app/footer-app.component';
+import { HeaderAppComponent } from './shared/components/header-app/header-app.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    FooterAppComponent,
+    HeaderAppComponent
   ],
   imports: [
     BrowserModule,
