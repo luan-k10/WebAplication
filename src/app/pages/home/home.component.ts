@@ -8,11 +8,30 @@ import { Slide } from 'src/app/shared/models/slide';
 })
 export class HomeComponent implements OnInit {
 
-  slides: Slide[] = []
-
+  slides: string [] = ['assets/img/slider/ima1.jpg','assets/img/slider/ima2.jpg','assets/img/slider/ima3.jpg' ];
+  i=0;
   constructor() { }
 
   ngOnInit(): void {
+   
+  }
+
+  getSlide() {
+    return this.slides[this.i];
+  }
+
+  getPrev() {
+    this.i = this.i===0 ? 0 : this.i - 1;
+  }
+//edit here    
+  getNext() {
+    this.i = this.i===this.slides.length ? this.i : this.i + 1;
+    if (this.slides.length == this.i ){
+      this.i = 0;
+    }
+  }
+
+  /*ngOnInit(): void {
     this.slides.push({
       id: 0,
       src: 'assets/img/slider/ima1.jpg ',
@@ -30,7 +49,7 @@ export class HomeComponent implements OnInit {
       src: ' assets/img/slider/ima3.jpg ',
       title: 'Third slide',
       subtitle: 'Praesent commodo cursus magna, vel scelerisque nisl consectetur.'
-    });
+    });*/
   }
 
 
@@ -71,4 +90,4 @@ export class HomeComponent implements OnInit {
       title: 'imagem 3'
     }]
   }*/
-}
+
