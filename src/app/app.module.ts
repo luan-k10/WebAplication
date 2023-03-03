@@ -12,6 +12,7 @@ import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { CarouselModule } from '@coreui/angular';
 import { FooterAppComponent } from './shared/components/footer-app/footer-app.component';
 import { HeaderAppComponent } from './shared/components/header-app/header-app.component';
+import {MatIconModule} from '@angular/material/icon'; 
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { HeaderAppComponent } from './shared/components/header-app/header-app.co
     MatToolbarModule,
     MatButtonModule,
     NgImageSliderModule,
-    CarouselModule
+    CarouselModule,
+    MatIconModule
   ],
   schemas: [NO_ERRORS_SCHEMA],
   providers: [],
