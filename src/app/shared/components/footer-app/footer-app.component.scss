@@ -8,21 +8,22 @@ footer p {
   margin: 0;
 }
 
-footer ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: right;
-}
-
-footer ul li {
-  display: inline-block;
-  margin-left: 10px;
-}
-
-footer ul li:first-child {
-  margin-left: 0;
-}
 .col-md-6{
   color: #76596E;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #666666;
+  font-size: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #00acee;
 }
