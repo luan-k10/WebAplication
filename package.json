@@ -26,6 +26,8 @@
     "@types/webrtc": "^0.0.33",
     "ng-image-slider": "^7.0.0",
     "ngx-owl-carousel-o": "^15.0.0",
+    "ngx-perfect-scrollbar": "^10.1.1",
+    "perfect-scrollbar": "^1.5.5",
     "rxjs": "~7.8.0",
     "tslib": "^2.5.0",
     "zone.js": "~0.12.0"

@@ -1,7 +1,12 @@
-.container{
+
+.ps__rail-x {
   display: flex;
-  height: 100%;
-  width: 100%;
-  margin-top: 80px;
-  margin-bottom: 80px;
+}
+
+.ps__rail-y {
+  background-color: #CDC0CC;
+}
+
+.ps__thumb-y {
+  background-color: #76596E;
 }
